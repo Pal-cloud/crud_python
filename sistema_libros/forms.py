@@ -1,3 +1,7 @@
 from django import forms
+from .models import Libro
 
-# Create your forms here.
+class LibroForm(forms.ModelForm):
+    class Meta:
+        model = Libro
+        fields = ['titulo', 'autor', 'descripcion', 'fecha_publicacion', 'isbn']
