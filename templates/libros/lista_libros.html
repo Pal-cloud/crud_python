@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Libros</title>
+</head>
+<body>
+    <h1>Lista de Libros</h1>
+    
+    <div style="margin-bottom: 20px;">
+        <a href="{% url 'crear_libro' %}">➕ Agregar Nuevo Libro</a>
+    </div>
+    
+    {% if libros %}
+        <ul>
+        {% for libro in libros %}
+            <li>
+                <a href="{% url 'detalle_libro' libro.id %}">{{ libro.titulo }}</a> 
+                - <em>{{ libro.autor }}</em>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No hay libros registrados. <a href="{% url 'crear_libro' %}">¡Agrega el primero!</a></p>
+    {% endif %}
+</body>
+</html>
