@@ -1,4 +1,24 @@
-# Sistema de Gestión de Libros - CRUD con Django
+# Un sistema completo de gestión de libros desarrollado con Django que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una colección de libros.
+
+## 🚀 Inicio Rápido
+
+¿Quieres probarlo inmediatamente? Sigue estos pasos:
+
+```bash
+git clone <url-del-repositorio>
+cd crud_python
+python -m venv .venv
+.venv\Scripts\activate  # Windows
+pip install django
+python manage.py migrate
+python manage.py runserver
+```
+
+Luego visita:
+- **📋 Lista de libros**: http://127.0.0.1:8000/libros/
+- **🔧 Panel Admin**: http://127.0.0.1:8000/admin/ (admin/admin123)
+
+## 🚀 Característicastema de Gestión de Libros - CRUD con Django
 
 Un sistema completo de gestión de libros desarrollado con Django que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una colección de libros.
 
@@ -110,6 +130,7 @@ python manage.py migrate
 ```bash
 python manage.py createsuperuser
 ```
+*Nota: Ya existe un superusuario de prueba (admin/admin123). Solo necesitas crear uno nuevo si quieres credenciales diferentes.*
 
 ### 7. Ejecutar servidor de desarrollo
 ```bash
@@ -117,6 +138,26 @@ python manage.py runserver
 ```
 
 El servidor estará disponible en: `http://127.0.0.1:8000/`
+
+## 🔐 Credenciales de Prueba
+
+Para facilitar las pruebas, el proyecto incluye un usuario administrador preconfigurado:
+
+- **URL de administración**: `http://127.0.0.1:8000/admin/`
+- **Usuario**: `admin`
+- **Contraseña**: `admin123`
+- **Email**: `admin@test.com`
+
+### 📚 Datos de Prueba
+
+El proyecto incluye dos libros de ejemplo para facilitar las pruebas:
+
+1. **Don Quijote de la Mancha** - Miguel de Cervantes (1605)
+2. **Cien años de soledad** - Gabriel García Márquez (1967)
+
+Puedes ver estos libros en: `http://127.0.0.1:8000/libros/`
+
+> ⚠️ **Importante**: Estas son credenciales de desarrollo. En producción, cambia estas credenciales por unas seguras.
 
 ## 🌐 URLs Disponibles
 
