@@ -1,6 +1,8 @@
-# Un sistema completo de gestión de libros desarrollado con Django que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una colección de libros.
+# Biblioteca Bolero
 
-## 🚀 Inicio Rápido
+Proyecto con un CRUD de lieratura hispanoamericana.
+
+## Inicio Rápido
 
 ¿Quieres probarlo inmediatamente? Sigue estos pasos:
 
