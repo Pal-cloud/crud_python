@@ -1,6 +1,6 @@
 # Biblioteca Bolero
 
-Proyecto con un CRUD de lieratura hispanoamericana.
+Proyecto con un CRUD de literatura hispanoamericana.
 
 ## Inicio Rápido
 
@@ -154,7 +154,7 @@ Para facilitar las pruebas, el proyecto incluye un usuario administrador preconf
 
 El proyecto incluye dos libros de ejemplo para facilitar las pruebas:
 
-1. **Don Quijote de la Mancha** - Miguel de Cervantes (1605)
+1. **Tengo miedo miedo** - Pedro Lemebel (1997)
 2. **Cien años de soledad** - Gabriel García Márquez (1967)
 
 Puedes ver estos libros en: `http://127.0.0.1:8000/libros/`
