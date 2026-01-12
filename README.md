@@ -196,18 +196,4 @@ El proyecto incluye dos aplicaciones adicionales listas para desarrollo:
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
-## 🆘 Soporte
-
-Si encuentras algún problema o tienes preguntas:
-
-1. Verifica que todas las dependencias estén instaladas
-2. Asegúrate de que las migraciones estén aplicadas
-3. Revisa los logs del servidor para errores específicos
-
----
-
 **Desarrollado con ❤️ usando Django**
